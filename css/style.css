@@ -1,0 +1,66 @@
+/* style.css */
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #ffcc00;  /* สีพื้นหลังของเว็บไซต์ */
+    margin: 0;
+    padding: 0;
+}
+
+/* สำหรับหัวข้อ */
+h3 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* สำหรับปุ่ม */
+button {
+    background-color: #007bff;  /* สีปุ่ม */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;  /* สีของปุ่มเมื่อ hover */
+}
+
+/* กรอบของ container */
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* แผนที่ */
+.map-container {
+    height: 60vh;  /* ขนาดของแผนที่ */
+    background-color: #e0e0e0;
+}
+
+/* การ์ดโปรไฟล์ */
+.profile-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+/* ปรับให้ทุกฟอร์มดูสวยงาม */
+.form-control {
+    border-radius: 5px;
+}
+
+/* สไตล์สำหรับข้อความผิดพลาด */
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+}
